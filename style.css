@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(45deg, blue, red);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+textarea {
+    width: 50%;
+    height: 40%;
+    background-color: rgba(107, 107, 110, 0.358);
+    color: white;
+    font-size: large;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+textarea::placeholder {
+    color: white;
+    font-size: large;
+}
+
+.row {
+    display: flex;
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgb(235, 6, 6);
+    border: none;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.row select {
+    flex: 1;
+    border-radius: 10px;
+    background-color: rgba(115, 118, 120, 0.296);
+    color: white;
+    padding: 5px;
+}
+
+select option {
+   color: black; 
+ }
